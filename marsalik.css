@@ -1,0 +1,70 @@
+body { font-family: Arial, sans-serif; }
+        form {
+            max-width: 400px;
+            margin: auto;
+            padding: 24px;
+            box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+            border: 1px solid #ddd;
+            border-radius: 8px;
+
+
+        }
+        input[type=text], input[type=email], textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+            border: 1px solid #ddd;
+            border-radius: 8px;
+
+
+        }
+        input[type=submit] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            cursor: pointer;
+            box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+            border: 1px solid #ddd;
+            border-radius: 8px;
+
+
+        }
+        input[type=submit]:hover {
+            background-color: #45a049;
+            box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            animation: example 2s ease-in-out 2s infinite alternate both;
+            transition: transform 0.9s;
+            transform: scale(1.1);
+            
+            
+              
+        }
+
+        textarea[type=message]{
+            background-color: rgb(255, 255, 255);
+            border: 1px solid #ddd;
+            box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+            border-radius: 8px;
+
+
+        }
+
+        select[type=priority]{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+            box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+            transition: border-color 0.3s;
+
+        }
